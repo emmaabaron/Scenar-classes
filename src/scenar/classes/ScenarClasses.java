@@ -17,7 +17,7 @@ public class ScenarClasses {
     public static void main(String[] args) {
         // TODO code application logic here
         String marque = "Peugot";
-        int modele = 208;
+        String modele = "208";
         int annee = 2021;
         int prix = 14500;
         System.out.println("Voici une rapide présentation de la "+marque + modele +" sortie en "+annee + ". Elle est vendu au prix de "+prix+ "euros.");
