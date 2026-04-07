@@ -16,12 +16,19 @@ public class ScenarClasses {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String marque = "Peugot";
+        /*String marque = "Peugeot";
         String modele = "208";
         int annee = 2021;
         int prix = 14500;
         System.out.println("Voici une rapide présentation de la "+marque + modele +" sortie en "+annee + ". Elle est vendu au prix de "+prix+ "euros.");
+        */
+        Voiture v1 = new Voiture();
+        Voiture v2 = new Voiture();
+        Voiture v3 =new Voiture();
         
+        v1.marque="Peugeot"; v1.modele="208"; v1.annee=2021; v1.prix=14500;
+        v2.marque="Toyota"; v2.modele="Yaris"; v2.annee=2015; v2.prix=9800;
+        v3.marque="Renault"; v3.modele="Clio"; v3.annee=2000; v3.prix=3500;
     }
     
 }
