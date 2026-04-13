@@ -33,7 +33,7 @@ public class ScenarClasses {
         Voiture v1 = new Voiture("Peugeot","208",2021,14500);
         
         System.out.println(v1.marque+ v1.modele);
-        */
+        
         Pneus p1= new Pneus (205,55,16,"Eté");
         
         System.out.println(p1.largeur+ p1.type);
@@ -41,6 +41,14 @@ public class ScenarClasses {
         Voiture v1 = new Voiture("Peugeot","208",2021,14500,p1);
         
         System.out.println(v1.marque+" "+ v1.modele+ " "+v1.pneus.type);
+*/
+        Pneus p1= new Pneus (205,55,16,"Eté");
+        Voiture v1 = new Voiture("Peugeot","208",2021,14500,p1);
+        
+        System.out.println("Marque : "+v1.marque);
+        System.out.println("Modèle : "+v1.modele);
+        System.out.println("Année : "+v1.annee);
+        System.out.println("Prix : "+v1.prix);
     }
     
 }
