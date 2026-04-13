@@ -52,7 +52,11 @@ public class ScenarClasses {
 */        
         Pneus p1= new Pneus (205,55,16,"Eté");
         Voiture v1 = new Voiture("Peugeot","208",2021,14500,p1);
+        System.out.println("Voiture avant réduction de 10% :");
         v1.afficherDescription();
+        
+        System.out.println("Voiture après réduction de 10% :");
+        v1.appliquerReduction10();
     }
     
 }
