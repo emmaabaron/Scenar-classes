@@ -31,10 +31,7 @@ public class Voiture {
         System.out.println("Prix : "+prix+ " €");
     }
     
-    public void appliquerReduction10(){
-        System.out.println("Marque : "+marque);
-        System.out.println("Modèle : "+modele);
-        System.out.println("Année : "+annee);
-        System.out.println("Prix : "+prix*0.90+ " €");
+    public void appliquerReduction(double pourcentage){
+        prix =prix-(prix*pourcentage/100);
     }
 }

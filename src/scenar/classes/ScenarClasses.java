@@ -56,7 +56,7 @@ public class ScenarClasses {
         v1.afficherDescription();
         
         System.out.println("Voiture après réduction de 10% :");
-        v1.appliquerReduction10();
+        v1.appliquerReduction(10);
+        v1.afficherDescription();
     }
-    
 }
