@@ -27,11 +27,17 @@ public class Voiture {
     public void afficherDescription(){
         System.out.println("Marque : "+marque);
         System.out.println("Modèle : "+modele);
-        System.out.println("Année : "+annee);
+        /*System.out.println("Année : "+annee);*/
+        System.out.println("Age : "+calculAge());
         System.out.println("Prix : "+prix+ " €");
     }
     
     public void appliquerReduction(double pourcentage){
         prix =prix-(prix*pourcentage/100);
+    }
+    
+    public int calculAge(){
+        int age=2026-annee;
+        return(age);
     }
 }
