@@ -24,4 +24,10 @@ public class Voiture {
         this.prix=prix;
         this.pneus=pneus;
     }
+    public void afficherDescription(){
+        System.out.println("Marque : "+marque);
+        System.out.println("Modèle : "+modele);
+        System.out.println("Année : "+annee);
+        System.out.println("Prix : "+prix+ " €");
+    }
 }
